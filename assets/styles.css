@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#hyperlinks {
+    text-decoration: none;
+    color: black;
+}
+
+.nav {
+    display: flex;
+}
+
+.form-control {
+    border-radius: 20px!important;
+}
+
+a:hover {
+    color: blue!important;
+}
+
+.header {
+    padding: 0 25px 0;
+}
+
+img, svg {
+    vertical-align: left!important; 
+}
+
+.fa-shopping-cart {
+    font-size: 1.4em!important;
+}
+
+#login {
+    color: #1c1d1f;
+    background-color: transparent!important;
+    border: 1px solid #1c1d1f;
+    height: 2.5rem;
+    padding: 0 1.2rem;
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+#signup {
+    color: white;
+    background-color: #1c1d1f!important;
+    border: 1px solid #1c1d1f;
+    height: 2.5rem;
+    padding: 0 1.2rem;
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+#language {
+    background-color: transparent!important;
+    border: 1px solid #1c1d1f;
+    height: 2.5rem;
+    width: 1.1rem;
+    padding: 0 0.5rem;
+    padding-right: 2.0rem;
+    font-size: 0.3rem!important;
+    
+}
