@@ -11,26 +11,30 @@
 
 .nav {
     display: flex;
+    justify-content: space-between;
+    
 }
 
-.form-control {
-    border-radius: 20px!important;
+.header a:hover {
+    color: #5624d0!important;
 }
 
-a:hover {
-    color: blue!important;
+.billboard-card a {
+    color: #5624d0!important;
+}
+
+.billboard-card a:hover {
+    color: #380fa2!important;
 }
 
 .header {
     padding: 0 25px 0;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 img, svg {
     vertical-align: left!important; 
-}
-
-.fa-shopping-cart {
-    font-size: 1.4em!important;
 }
 
 #login {
@@ -62,4 +66,50 @@ img, svg {
     padding-right: 2.0rem;
     font-size: 0.3rem!important;
     
+}
+
+.input-icons {
+    width: 480px;
+}
+  
+.icon {
+    padding: 0.5em 0.5em 0.8em 0.7em;
+    width: 3em;
+    position: absolute;
+    color: #888a8d;
+}
+  
+.input-field {
+    width: 100%;
+    padding: 0.9em 0.9em 0.9em 3.5em;
+    font-size: 0.9rem;
+    border-radius: 2em;
+    border: 1px inset #272828;
+}
+
+.header-text {
+    font-size: 0.85rem;
+    padding-right: 1rem;
+}
+
+.card-heading {
+    font-weight: 800;
+    line-height: 2.2rem;
+    font-size: 2.2rem;
+    font-family: Serif;
+    margin-bottom: 1rem;
+}
+
+.billboard-card {
+    border: 1px solid #1c1d1f;
+    height: 12em;
+    width: 430px;
+    padding: 1.2rem;
+}
+
+.second-billboard-card {
+    border: 1px solid #1c1d1f;
+    height: 8em;
+    width: 430px;
+    padding: 1.2rem;
 }
