@@ -15,7 +15,8 @@
     
 }
 
-.header a:hover {
+.header a:hover, 
+.headline-tabs nav a:hover {
     color: #5624d0!important;
 }
 
@@ -65,7 +66,6 @@ img, svg {
     padding: 0 0.5rem;
     padding-right: 2.0rem;
     font-size: 0.3rem!important;
-    
 }
 
 .input-icons {
@@ -145,4 +145,21 @@ img, svg {
     font-weight: 600;
     margin-top: 2.2rem;
     margin-bottom: 1rem;
+}
+
+.headline-tabs nav a {
+    text-decoration: none!important;
+    color: black!important;
+}
+
+.headline-tabs {
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+    margin-left: -0.8rem!important;
+}
+
+.headline p {
+    font-size: 1.2rem;
+
 }
